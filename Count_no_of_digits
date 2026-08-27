@@ -1,0 +1,6 @@
+#Program to count the no.of digits
+l1=list(input("Enter the number to count:"))
+count=0
+for i in l1:
+    count=count+1
+print("The no.of digits in the given number is:",count)
