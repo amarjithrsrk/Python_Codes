@@ -1,0 +1,12 @@
+#Program to find the most frequent element from the list
+def freq():
+    lst=list(input("Enter the elements:"))
+    c_ount=0
+    element=None
+    for i in lst:
+        w=lst.count(i)
+        if w>c_ount:
+            c_ount=w
+            element=i
+    print("The most frequent element is:",element,"of",c_ount)
+freq()
