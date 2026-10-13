@@ -1,0 +1,9 @@
+#Program to find palindrome string
+def palli():
+    wrd=input("Enter the string to check:")
+    s=wrd[::-1]
+    if wrd==s:
+        print(wrd,"is a palindrome")
+    else:
+        print(wrd,"is not palindrome")
+palli()

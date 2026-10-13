@@ -1,0 +1,13 @@
+#Program to count vowels and consonants
+def vowcons():
+    wrd=input("Enter the words:")
+    vcount=0
+    ccount=0
+    for i in wrd:
+        if i in 'aeiouAEIOU':
+            vcount+=1
+        else:
+            ccount+=1
+    print("The no.of vowels is: ",vcount)
+    print("The no.of consonants is:",ccount)
+vowcons()

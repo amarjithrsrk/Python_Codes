@@ -1,0 +1,7 @@
+#Program to count the words
+wrd=input("Enter the sentence:")
+std=wrd.split()
+wcount=0
+for i in std:
+    wcount=wcount+1
+print("The no.of words is:",wcount)
